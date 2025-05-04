@@ -116,6 +116,10 @@ Ideally a page for selecting custom made scenarios should have been there. Howev
 
 Animations will also be added in the future, e.g. for when checkers (as well as bombs) fall in the grid. With more time and a better structured gameboard, there will be animations for making checkers fall when they are placed in the grid, as well as making them fall again when resetting the game, just like real checkers would do. 
 
+# Licensing
+
+As I have not yet identified a license that fully aligns with my goals for this project, particularly the requirement to restrict commercial use while allowing noncommercial sharing and modification, the software will remain proprietary for the time being. This means that, by default, all rights are reserved, and no one may use, modify, or distribute the code without explicit permission. I am actively exploring licensing options to make the project more accessible for noncommercial use in the future, and I welcome suggestions or feedback on this matter.
+
 # Credits
 
 This application has been developed first for the 2024-2025 edition of the [INFO2051-1 Object-oriented programming on mobile devices](https://www.programmes.uliege.be/cocoon/20242025/en/cours/INFO2051-1.html) class at Uliege.
