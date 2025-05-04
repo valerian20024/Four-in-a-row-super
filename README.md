@@ -10,6 +10,10 @@
 
 The idea of a FIAR game that’s combined with Power Ups and fancy behaviors comes from playing the game [Chessplode](https://play.google.com/store/apps/details?id=com.juan.ma.chessplode&hl=en_US) which is a chess game where eating a pawn results in destroying all pawns in the same row and column. This application served as inspiration because it opened new possibilities for playing chess, namely having a more ’fun’ or ’arcade’ way to play, offering shorter and less serious games.
 
+## How to use it
+
+The `app-release.apk` file in the root directory is ready to use on an Android phone or emulator. Simply download it and install it.
+
 ## How it works
 
 The player can play alone against an AI or with a friend on the same physical device. The user can decide to play a predefined game like Classic and Popout, or can customize its game by checking the rules to be present. All the rules present in the game are explained in a dedicated page. After choosing the number of players and the game mode, the user arrives onto the gameboard and can start playing the game.
