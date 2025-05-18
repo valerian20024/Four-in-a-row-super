@@ -46,18 +46,19 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/home', // init route
+      // todo find better names for the routes
+      initialRoute: '/home',
       routes: {
-        '/home': (context) => const HomeView(),
-        '/game': (context) => const GameBoardView(),
-        '/playhome': (context) => const PlayHomeView(),
-        '/scenario': (context) => const ScenarioView(),
-        '/about': (context) => const AboutView(),
-        '/settings': (context) => const SettingsView(),
-        '/classic_game_choice': (context) => const ClassicalGameChoiceView(),
-        '/number_players': (context) => const NumberOfPlayersView(),
-        '/rules': (context) => const RulesView(),
-        '/difficulty': (context) => const DifficultyChoiceView(),
+        '/home':                  (context) => const HomeView(),
+        '/game':                  (context) => const GameBoardView(),
+        '/playhome':              (context) => const PlayHomeView(),
+        '/scenario':              (context) => const ScenarioView(),
+        '/about':                 (context) => const AboutView(),
+        '/settings':              (context) => const SettingsView(),
+        '/classic_game_choice':   (context) => const ClassicalGameChoiceView(),
+        '/number_players':        (context) => const NumberOfPlayersView(),
+        '/rules':                 (context) => const RulesView(),
+        '/difficulty':            (context) => const DifficultyChoiceView(),
       },
     );
   }
